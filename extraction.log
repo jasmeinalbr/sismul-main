@@ -1210,3 +1210,186 @@
 2025-06-28 21:40:19,695 - INFO - Pesan yang diekstrak: milikimu
 2025-06-28 21:40:19,696 - INFO - Hasil ekstraksi: milikimu
 2025-06-28 21:40:19,731 - INFO - 127.0.0.1 - - [28/Jun/2025 21:40:19] "POST /extract HTTP/1.1" 200 -
+2025-06-29 10:39:41,210 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-29 10:39:41,217 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-29 10:39:41,219 - INFO -  * Restarting with stat
+2025-06-29 10:39:45,442 - WARNING -  * Debugger is active!
+2025-06-29 10:39:45,537 - INFO -  * Debugger PIN: 567-784-769
+2025-06-29 10:39:49,877 - INFO - 127.0.0.1 - - [29/Jun/2025 10:39:49] "GET / HTTP/1.1" 200 -
+2025-06-29 10:39:50,639 - INFO - 127.0.0.1 - - [29/Jun/2025 10:39:50] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-29 10:39:50,642 - INFO - 127.0.0.1 - - [29/Jun/2025 10:39:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-29 10:42:12,515 - DEBUG - Menerima permintaan embed.
+2025-06-29 10:42:12,549 - DEBUG - Gambar disimpan di: output/IMG_0004.JPG
+2025-06-29 10:42:12,761 - DEBUG - Memulai proses embedding...
+2025-06-29 10:42:12,798 - DEBUG - Ukuran kanal Y: (2304, 3456)
+2025-06-29 10:42:13,347 - DEBUG - Jumlah koefisien DCT: 7962624
+2025-06-29 10:42:13,347 - DEBUG - Panjang bit pesan (termasuk EOF): 72
+2025-06-29 10:42:13,347 - DEBUG - Bit pesan: 011000100110000101101000011000010110011101101001011000011111111111111110
+2025-06-29 10:42:33,821 - DEBUG - Jumlah koefisien valid (>=15.0): 503631
+2025-06-29 10:42:33,823 - DEBUG - Embed bit 0 pada indeks 10: val=-4637.60, parity=1
+2025-06-29 10:42:33,823 - DEBUG - Embed bit 1 pada indeks 11: val=446.93, parity=0
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 1 pada indeks 12: val=7216.97, parity=0
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 0 pada indeks 13: val=3705.48, parity=1
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 0 pada indeks 14: val=846.98, parity=0
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 0 pada indeks 15: val=134.15, parity=0
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 1 pada indeks 16: val=6802.33, parity=0
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 0 pada indeks 17: val=-1646.41, parity=0
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 0 pada indeks 18: val=1873.69, parity=1
+2025-06-29 10:42:33,824 - DEBUG - Embed bit 1 pada indeks 19: val=-3588.95, parity=0
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 1 pada indeks 20: val=4195.77, parity=1
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 0 pada indeks 21: val=2089.73, parity=1
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 0 pada indeks 22: val=15.49, parity=1
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 0 pada indeks 23: val=-2926.89, parity=0
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 0 pada indeks 24: val=-4687.18, parity=1
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 1 pada indeks 25: val=1115.46, parity=1
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 0 pada indeks 26: val=3968.96, parity=0
+2025-06-29 10:42:33,825 - DEBUG - Embed bit 1 pada indeks 27: val=-7146.57, parity=0
+2025-06-29 10:42:33,826 - DEBUG - Embed bit 1 pada indeks 28: val=-1817.20, parity=1
+2025-06-29 10:42:33,826 - DEBUG - Embed bit 0 pada indeks 29: val=312.51, parity=0
+2025-06-29 10:42:33,826 - DEBUG - Embed bit 1 pada indeks 30: val=3802.14, parity=0
+2025-06-29 10:42:33,826 - DEBUG - Embed bit 0 pada indeks 31: val=-2554.77, parity=0
+2025-06-29 10:42:33,826 - DEBUG - Embed bit 0 pada indeks 32: val=4477.18, parity=1
+2025-06-29 10:42:33,826 - DEBUG - Embed bit 0 pada indeks 33: val=-2383.34, parity=1
+2025-06-29 10:42:33,826 - DEBUG - Embed bit 0 pada indeks 34: val=-822.03, parity=0
+2025-06-29 10:42:33,827 - DEBUG - Embed bit 1 pada indeks 35: val=320.90, parity=0
+2025-06-29 10:42:33,827 - DEBUG - Embed bit 1 pada indeks 36: val=3014.85, parity=0
+2025-06-29 10:42:33,827 - DEBUG - Embed bit 0 pada indeks 37: val=-957.45, parity=1
+2025-06-29 10:42:33,827 - DEBUG - Embed bit 0 pada indeks 38: val=3625.50, parity=1
+2025-06-29 10:42:33,829 - DEBUG - Embed bit 0 pada indeks 39: val=-2029.62, parity=1
+2025-06-29 10:42:33,830 - DEBUG - Embed bit 0 pada indeks 40: val=-812.99, parity=0
+2025-06-29 10:42:33,834 - DEBUG - Embed bit 1 pada indeks 41: val=-472.87, parity=0
+2025-06-29 10:42:33,834 - DEBUG - Embed bit 0 pada indeks 42: val=-1984.88, parity=0
+2025-06-29 10:42:33,835 - DEBUG - Embed bit 1 pada indeks 43: val=1362.68, parity=0
+2025-06-29 10:42:33,843 - DEBUG - Embed bit 1 pada indeks 44: val=1545.69, parity=1
+2025-06-29 10:42:33,843 - DEBUG - Embed bit 0 pada indeks 45: val=-4262.92, parity=0
+2025-06-29 10:42:33,846 - DEBUG - Embed bit 0 pada indeks 46: val=1782.43, parity=0
+2025-06-29 10:42:33,846 - DEBUG - Embed bit 1 pada indeks 47: val=-4569.27, parity=1
+2025-06-29 10:42:33,847 - DEBUG - Embed bit 1 pada indeks 48: val=282.23, parity=0
+2025-06-29 10:42:33,848 - DEBUG - Embed bit 1 pada indeks 49: val=477.45, parity=1
+2025-06-29 10:42:33,848 - DEBUG - Embed bit 0 pada indeks 50: val=-168.45, parity=0
+2025-06-29 10:42:33,848 - DEBUG - Embed bit 1 pada indeks 51: val=1148.86, parity=0
+2025-06-29 10:42:33,848 - DEBUG - Embed bit 1 pada indeks 52: val=2219.29, parity=1
+2025-06-29 10:42:33,848 - DEBUG - Embed bit 0 pada indeks 53: val=-1454.27, parity=0
+2025-06-29 10:42:33,848 - DEBUG - Embed bit 1 pada indeks 54: val=470.95, parity=0
+2025-06-29 10:42:33,848 - DEBUG - Embed bit 0 pada indeks 55: val=1185.99, parity=1
+2025-06-29 10:42:33,849 - DEBUG - Embed bit 0 pada indeks 56: val=-502.85, parity=0
+2025-06-29 10:42:33,849 - DEBUG - Embed bit 1 pada indeks 57: val=-612.27, parity=0
+2025-06-29 10:42:33,849 - DEBUG - Embed bit 0 pada indeks 58: val=2550.63, parity=0
+2025-06-29 10:42:33,849 - DEBUG - Embed bit 1 pada indeks 59: val=-1048.05, parity=0
+2025-06-29 10:42:33,849 - DEBUG - Embed bit 1 pada indeks 60: val=-1840.15, parity=0
+2025-06-29 10:42:33,849 - DEBUG - Embed bit 0 pada indeks 61: val=2139.27, parity=1
+2025-06-29 10:42:33,849 - DEBUG - Embed bit 0 pada indeks 62: val=919.69, parity=1
+2025-06-29 10:42:33,850 - DEBUG - Embed bit 0 pada indeks 63: val=336.11, parity=0
+2025-06-29 10:42:33,850 - DEBUG - Embed bit 0 pada indeks 64: val=556.93, parity=0
+2025-06-29 10:42:33,850 - DEBUG - Embed bit 1 pada indeks 65: val=-1543.04, parity=1
+2025-06-29 10:42:33,855 - DEBUG - Embed bit 1 pada indeks 66: val=522.93, parity=0
+2025-06-29 10:42:33,861 - DEBUG - Embed bit 1 pada indeks 67: val=-776.96, parity=0
+2025-06-29 10:42:33,863 - DEBUG - Embed bit 1 pada indeks 68: val=-390.99, parity=0
+2025-06-29 10:42:33,863 - DEBUG - Embed bit 1 pada indeks 69: val=1803.43, parity=1
+2025-06-29 10:42:33,864 - DEBUG - Embed bit 1 pada indeks 70: val=-1675.35, parity=1
+2025-06-29 10:42:33,865 - DEBUG - Embed bit 1 pada indeks 71: val=450.11, parity=0
+2025-06-29 10:42:33,866 - DEBUG - Embed bit 1 pada indeks 72: val=735.89, parity=1
+2025-06-29 10:42:33,873 - DEBUG - Embed bit 1 pada indeks 73: val=238.29, parity=0
+2025-06-29 10:42:33,880 - DEBUG - Embed bit 1 pada indeks 74: val=846.48, parity=0
+2025-06-29 10:42:33,881 - DEBUG - Embed bit 1 pada indeks 75: val=-522.18, parity=0
+2025-06-29 10:42:33,881 - DEBUG - Embed bit 1 pada indeks 76: val=1399.99, parity=1
+2025-06-29 10:42:33,881 - DEBUG - Embed bit 1 pada indeks 77: val=167.90, parity=1
+2025-06-29 10:42:33,881 - DEBUG - Embed bit 1 pada indeks 78: val=181.35, parity=1
+2025-06-29 10:42:33,882 - DEBUG - Embed bit 1 pada indeks 79: val=-468.26, parity=0
+2025-06-29 10:42:33,882 - DEBUG - Embed bit 1 pada indeks 80: val=-1426.39, parity=0
+2025-06-29 10:42:33,882 - DEBUG - Embed bit 0 pada indeks 81: val=327.98, parity=1
+2025-06-29 10:42:33,888 - DEBUG - Koefisien yang digunakan: [(10, -4637.605, 1), (11, 446.92905, 0), (12, 7216.967, 0), (13, 3705.4783, 1), (14, 846.9774, 0), (15, 134.15158, 0), (16, 6802.335, 0), (17, -1646.4066, 0), (18, 1873.6937, 1), (19, -3588.9546, 0), (20, 4195.769, 1), (21, 2089.728, 1), (22, 15.48846, 1), (23, -2926.894, 0), (24, -4687.1753, 1), (25, 1115.4595, 1), (26, 3968.9597, 0), (27, -7146.572, 0), (28, -1817.1958, 1), (29, 312.51013, 0), (30, 3802.1426, 0), (31, -2554.7705, 0), (32, 4477.1763, 1), (33, -2383.345, 1), (34, -822.0332, 0), (35, 320.90155, 0), (36, 3014.8503, 0), (37, -957.45166, 1), (38, 3625.4956, 1), (39, -2029.617, 1), (40, -812.9865, 0), (41, -472.87036, 0), (42, -1984.8818, 0), (43, 1362.6782, 0), (44, 1545.6912, 1), (45, -4262.915, 0), (46, 1782.4326, 0), (47, -4569.2725, 1), (48, 282.2265, 0), (49, 477.4527, 1), (50, -168.45319, 0), (51, 1148.8555, 0), (52, 2219.29, 1), (53, -1454.2684, 0), (54, 470.95276, 0), (55, 1185.9891, 1), (56, -502.85214, 0), (57, -612.27094, 0), (58, 2550.6338, 0), (59, -1048.0476, 0), (60, -1840.148, 0), (61, 2139.2715, 1), (62, 919.6901, 1), (63, 336.11273, 0), (64, 556.9336, 0), (65, -1543.0354, 1), (66, 522.9258, 0), (67, -776.96277, 0), (68, -390.99387, 0), (69, 1803.4346, 1), (70, -1675.3484, 1), (71, 450.1063, 0), (72, 735.8905, 1), (73, 238.2898, 0), (74, 846.48486, 0), (75, -522.1829, 0), (76, 1399.9912, 1), (77, 167.90048, 1), (78, 181.34978, 1), (79, -468.25732, 0), (80, -1426.3862, 0), (81, 327.9792, 1)]
+2025-06-29 10:42:33,895 - DEBUG - Sample modified coefficients: [(10, -4638.605), (11, 447.92905), (12, 7217.967), (13, 3706.4783), (14, 846.9774)]
+2025-06-29 10:42:34,051 - DEBUG - Saved embedding indices and DCT coefficients for debugging.
+2025-06-29 10:42:34,406 - INFO - Embedding berhasil.
+2025-06-29 10:42:35,600 - INFO - Gambar stego disimpan di: output/stego_IMG_0004.png
+2025-06-29 10:42:35,610 - INFO - 127.0.0.1 - - [29/Jun/2025 10:42:35] "POST /embed HTTP/1.1" 200 -
+2025-06-29 10:42:35,640 - DEBUG - Mengunduh file: output/stego_IMG_0004.png
+2025-06-29 10:42:35,642 - INFO - 127.0.0.1 - - [29/Jun/2025 10:42:35] "GET /download/stego_IMG_0004.png HTTP/1.1" 200 -
+2025-06-29 10:42:43,273 - DEBUG - Mengunduh file: output/stego_IMG_0004.png
+2025-06-29 10:42:43,277 - INFO - 127.0.0.1 - - [29/Jun/2025 10:42:43] "GET /download/stego_IMG_0004.png HTTP/1.1" 200 -
+2025-06-29 10:42:55,648 - DEBUG - Menerima permintaan ekstraksi.
+2025-06-29 10:42:55,943 - DEBUG - Gambar stego disimpan di: output/stego_IMG_0004.png
+2025-06-29 10:42:56,077 - DEBUG - Memulai proses ekstraksi...
+2025-06-29 10:42:56,125 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-29 10:42:56,126 - DEBUG - STREAM b'IDAT' 41 8192
+2025-06-29 10:42:56,204 - DEBUG - Loaded saved DCT coefficients for extraction.
+2025-06-29 10:42:56,205 - DEBUG - Sample extracted coefficients: [(10, -4638.605), (11, 447.92905), (12, 7217.967), (13, 3706.4783), (14, 846.9774)]
+2025-06-29 10:42:56,206 - DEBUG - Using saved embedding indices for extraction.
+2025-06-29 10:42:56,208 - DEBUG - Indeks 10: val=-4638.60, parity=0, bits terakhir=0
+2025-06-29 10:42:56,208 - DEBUG - Indeks 11: val=447.93, parity=1, bits terakhir=01
+2025-06-29 10:42:56,208 - DEBUG - Indeks 12: val=7217.97, parity=1, bits terakhir=011
+2025-06-29 10:42:56,209 - DEBUG - Indeks 13: val=3706.48, parity=0, bits terakhir=0110
+2025-06-29 10:42:56,209 - DEBUG - Indeks 14: val=846.98, parity=0, bits terakhir=01100
+2025-06-29 10:42:56,209 - DEBUG - Indeks 15: val=134.15, parity=0, bits terakhir=011000
+2025-06-29 10:42:56,209 - DEBUG - Indeks 16: val=6803.33, parity=1, bits terakhir=0110001
+2025-06-29 10:42:56,210 - DEBUG - Indeks 17: val=-1646.41, parity=0, bits terakhir=01100010
+2025-06-29 10:42:56,218 - DEBUG - Indeks 18: val=1874.69, parity=0, bits terakhir=011000100
+2025-06-29 10:42:56,219 - DEBUG - Indeks 19: val=-3589.95, parity=1, bits terakhir=0110001001
+2025-06-29 10:42:56,219 - DEBUG - Indeks 20: val=4195.77, parity=1, bits terakhir=1100010011
+2025-06-29 10:42:56,220 - DEBUG - Indeks 21: val=2090.73, parity=0, bits terakhir=1000100110
+2025-06-29 10:42:56,223 - DEBUG - Indeks 22: val=16.49, parity=0, bits terakhir=0001001100
+2025-06-29 10:42:56,223 - DEBUG - Indeks 23: val=-2926.89, parity=0, bits terakhir=0010011000
+2025-06-29 10:42:56,223 - DEBUG - Indeks 24: val=-4688.18, parity=0, bits terakhir=0100110000
+2025-06-29 10:42:56,223 - DEBUG - Indeks 25: val=1115.46, parity=1, bits terakhir=1001100001
+2025-06-29 10:42:56,224 - DEBUG - Indeks 26: val=3968.96, parity=0, bits terakhir=0011000010
+2025-06-29 10:42:56,225 - DEBUG - Indeks 27: val=-7147.57, parity=1, bits terakhir=0110000101
+2025-06-29 10:42:56,226 - DEBUG - Indeks 28: val=-1817.20, parity=1, bits terakhir=1100001011
+2025-06-29 10:42:56,226 - DEBUG - Indeks 29: val=312.51, parity=0, bits terakhir=1000010110
+2025-06-29 10:42:56,226 - DEBUG - Indeks 30: val=3803.14, parity=1, bits terakhir=0000101101
+2025-06-29 10:42:56,227 - DEBUG - Indeks 31: val=-2554.77, parity=0, bits terakhir=0001011010
+2025-06-29 10:42:56,227 - DEBUG - Indeks 32: val=4478.18, parity=0, bits terakhir=0010110100
+2025-06-29 10:42:56,227 - DEBUG - Indeks 33: val=-2384.34, parity=0, bits terakhir=0101101000
+2025-06-29 10:42:56,228 - DEBUG - Indeks 34: val=-822.03, parity=0, bits terakhir=1011010000
+2025-06-29 10:42:56,232 - DEBUG - Indeks 35: val=321.90, parity=1, bits terakhir=0110100001
+2025-06-29 10:42:56,237 - DEBUG - Indeks 36: val=3015.85, parity=1, bits terakhir=1101000011
+2025-06-29 10:42:56,239 - DEBUG - Indeks 37: val=-958.45, parity=0, bits terakhir=1010000110
+2025-06-29 10:42:56,239 - DEBUG - Indeks 38: val=3626.50, parity=0, bits terakhir=0100001100
+2025-06-29 10:42:56,239 - DEBUG - Indeks 39: val=-2030.62, parity=0, bits terakhir=1000011000
+2025-06-29 10:42:56,239 - DEBUG - Indeks 40: val=-812.99, parity=0, bits terakhir=0000110000
+2025-06-29 10:42:56,240 - DEBUG - Indeks 41: val=-473.87, parity=1, bits terakhir=0001100001
+2025-06-29 10:42:56,240 - DEBUG - Indeks 42: val=-1984.88, parity=0, bits terakhir=0011000010
+2025-06-29 10:42:56,240 - DEBUG - Indeks 43: val=1363.68, parity=1, bits terakhir=0110000101
+2025-06-29 10:42:56,240 - DEBUG - Indeks 44: val=1545.69, parity=1, bits terakhir=1100001011
+2025-06-29 10:42:56,241 - DEBUG - Indeks 45: val=-4262.92, parity=0, bits terakhir=1000010110
+2025-06-29 10:42:56,241 - DEBUG - Indeks 46: val=1782.43, parity=0, bits terakhir=0000101100
+2025-06-29 10:42:56,241 - DEBUG - Indeks 47: val=-4569.27, parity=1, bits terakhir=0001011001
+2025-06-29 10:42:56,241 - DEBUG - Indeks 48: val=283.23, parity=1, bits terakhir=0010110011
+2025-06-29 10:42:56,241 - DEBUG - Indeks 49: val=477.45, parity=1, bits terakhir=0101100111
+2025-06-29 10:42:56,241 - DEBUG - Indeks 50: val=-168.45, parity=0, bits terakhir=1011001110
+2025-06-29 10:42:56,241 - DEBUG - Indeks 51: val=1149.86, parity=1, bits terakhir=0110011101
+2025-06-29 10:42:56,241 - DEBUG - Indeks 52: val=2219.29, parity=1, bits terakhir=1100111011
+2025-06-29 10:42:56,242 - DEBUG - Indeks 53: val=-1454.27, parity=0, bits terakhir=1001110110
+2025-06-29 10:42:56,242 - DEBUG - Indeks 54: val=471.95, parity=1, bits terakhir=0011101101
+2025-06-29 10:42:56,243 - DEBUG - Indeks 55: val=1186.99, parity=0, bits terakhir=0111011010
+2025-06-29 10:42:56,246 - DEBUG - Indeks 56: val=-502.85, parity=0, bits terakhir=1110110100
+2025-06-29 10:42:56,247 - DEBUG - Indeks 57: val=-613.27, parity=1, bits terakhir=1101101001
+2025-06-29 10:42:56,247 - DEBUG - Indeks 58: val=2550.63, parity=0, bits terakhir=1011010010
+2025-06-29 10:42:56,247 - DEBUG - Indeks 59: val=-1049.05, parity=1, bits terakhir=0110100101
+2025-06-29 10:42:56,249 - DEBUG - Indeks 60: val=-1841.15, parity=1, bits terakhir=1101001011
+2025-06-29 10:42:56,253 - DEBUG - Indeks 61: val=2140.27, parity=0, bits terakhir=1010010110
+2025-06-29 10:42:56,254 - DEBUG - Indeks 62: val=920.69, parity=0, bits terakhir=0100101100
+2025-06-29 10:42:56,254 - DEBUG - Indeks 63: val=336.11, parity=0, bits terakhir=1001011000
+2025-06-29 10:42:56,255 - DEBUG - Indeks 64: val=556.93, parity=0, bits terakhir=0010110000
+2025-06-29 10:42:56,255 - DEBUG - Indeks 65: val=-1543.04, parity=1, bits terakhir=0101100001
+2025-06-29 10:42:56,255 - DEBUG - Indeks 66: val=523.93, parity=1, bits terakhir=1011000011
+2025-06-29 10:42:56,256 - DEBUG - Indeks 67: val=-777.96, parity=1, bits terakhir=0110000111
+2025-06-29 10:42:56,256 - DEBUG - Indeks 68: val=-391.99, parity=1, bits terakhir=1100001111
+2025-06-29 10:42:56,256 - DEBUG - Indeks 69: val=1803.43, parity=1, bits terakhir=1000011111
+2025-06-29 10:42:56,257 - DEBUG - Indeks 70: val=-1675.35, parity=1, bits terakhir=0000111111
+2025-06-29 10:42:56,257 - DEBUG - Indeks 71: val=451.11, parity=1, bits terakhir=0001111111
+2025-06-29 10:42:56,257 - DEBUG - Indeks 72: val=735.89, parity=1, bits terakhir=0011111111
+2025-06-29 10:42:56,258 - DEBUG - Indeks 73: val=239.29, parity=1, bits terakhir=0111111111
+2025-06-29 10:42:56,258 - DEBUG - Indeks 74: val=847.48, parity=1, bits terakhir=1111111111
+2025-06-29 10:42:56,259 - DEBUG - Indeks 75: val=-523.18, parity=1, bits terakhir=1111111111
+2025-06-29 10:42:56,259 - DEBUG - Indeks 76: val=1399.99, parity=1, bits terakhir=1111111111
+2025-06-29 10:42:56,259 - DEBUG - Indeks 77: val=167.90, parity=1, bits terakhir=1111111111
+2025-06-29 10:42:56,259 - DEBUG - Indeks 78: val=181.35, parity=1, bits terakhir=1111111111
+2025-06-29 10:42:56,259 - DEBUG - Indeks 79: val=-469.26, parity=1, bits terakhir=1111111111
+2025-06-29 10:42:56,259 - DEBUG - Indeks 80: val=-1427.39, parity=1, bits terakhir=1111111111
+2025-06-29 10:42:56,260 - DEBUG - Indeks 81: val=328.98, parity=0, bits terakhir=1111111110
+2025-06-29 10:42:56,260 - INFO - EOF marker ditemukan pada indeks 81, panjang bit: 56
+2025-06-29 10:42:56,261 - INFO - Pesan yang diekstrak: bahagia
+2025-06-29 10:42:56,266 - INFO - Hasil ekstraksi: bahagia
+2025-06-29 10:42:56,292 - INFO - 127.0.0.1 - - [29/Jun/2025 10:42:56] "POST /extract HTTP/1.1" 200 -
