@@ -7,8 +7,6 @@ Aplikasi web sederhana untuk menyisipkan dan mengekstrak pesan rahasia dari gamb
 ```
 SISMUL-MAIN/
 ├── app.py                    # Backend Flask App
-├── extraction.log           # Log hasil ekstraksi
-├── output/                  # Folder output file hasil embed
 ├── static/
 │   ├── css/
 │   │   └── style.css        # Style antarmuka pengguna
@@ -29,25 +27,31 @@ SISMUL-MAIN/
 ## 🛠️ Cara Menjalankan
 
 1. **Clone repo atau buka folder:**
-   ```bash
+```bash
    git clone https://github.com/jasmeinalbr/sismul-main.git
-   cd SISMUL-MAIN
-   ```
+   cd sismul-main
+```
 
-2. **Install dependency:**
-   ```bash
-   pip install flask
-   ```
+2. **Buat dan aktifkan virtual environment:**
+```bash
+   python -m venv .venv
+   source .venv/bin/activate      # Windows: .venv\Scripts\activate
+```
 
-3. **Jalankan aplikasi:**
-   ```bash
+3. **Install dependency:**
+```bash
+   pip install -r requirements.txt
+```
+
+4. **Jalankan aplikasi:**
+```bash
    python app.py
-   ```
+```
 
-4. **Buka di browser:**
-   ```
+5. **Buka di browser:**
+```
    http://127.0.0.1:5000
-   ```
+```
 
 ## 🧠 Teknologi yang Digunakan
 
